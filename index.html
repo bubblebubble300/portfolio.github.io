@@ -1,0 +1,73 @@
+<head>
+  <link type="text/css" rel="stylesheet" href="main.css" />
+  <title>Hi my name is Porter</title>
+  <script type="text/javascript">
+  	function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner? i really doubt it."); 
+return text; 
+} 
+    function answer(){
+var radio = document.getElementsByName("trivia"); 
+var selection = false; 
+var message = ""; 
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "steve" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop 
+Click on each line for an explanation.
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+
+    }//end function answer
+  </script>
+  <style>
+
+ 
+  </style>
+  <audio width="400" height="220" controls autoplay> <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg"></audio>
+  <li class="listitem">Hi there I will eat all the pizza in the world</li>
+  <li class="listitem">Mwahahahahahhahahahahahahahahahahahahahahaha</li>
+  <li class="listitem">Jk i love pizza and love sharing it so you dont have to worry. For now</li>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/U9t-slLl30E" frameborder="0" allowfullscreen></iframe>
+  <p class="paragraph">man you are a worry wart ;P</p>
+  <marquee id="group"> Hello World!</marquee> 
+  <body id="background">
+  <header>
+  	<a href="http://bing.com" onclick="return banner()">
+  		<header id="header">
+  		mwahahaha
+  		</header>
+  	</a>
+  </header>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RySHDUU2juM?list=RDU9t-slLl30E" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/k9tgLnI0fFc?list=RDU9t-slLl30E" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UkiI2vM2lfA?list=RDU9t-slLl30E" frameborder="0" allowfullscreen></iframe>
+  <img id="image" href="https://s17-us2.ixquick.com/cgi-bin/serveimage?url=http%3A%2F%2Ft2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcR_kWBrRCu5RqbWhotxHz-YE_P-8hoeSZVT4gr9pAQvPj1FvY6V-g&sp=d40ec6144af87713e28a278afa43ac1c"> 
+  <b>
+          <div style="color:blue">What is the name of the Minecraft Character when you first start?</div>
+        </b>
+      </em>
+      <br>
+        <form>
+        <div id="answer">
+        	
+        </div>
+          <input name="trivia" value="steve" id="button"
+          onclick="answer()" type="radio">Steve<br>
+          <input name="trivia" value="alex" id="button" type="radio">Alex<br>
+          <input name="trivia" value="bob" id="button" type="radio">Bob<br>
+          <input name="trivia" value="phil" id="button" type="radio">Phil
+          <input value="Submit" id="button" type="submit">
+          
+        </form>
+      <br>
+      <br>
+  </body>
+</head> 

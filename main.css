@@ -1,0 +1,85 @@
+ p {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 
+  }
+  .listitem{
+  	color:red;
+  	font-size:20px;
+  }
+  .paragraph{
+  	color:blue;
+  	font-size:2.5em;
+  }
+  #group {
+    color:red;
+    margin: 5em;
+  } 
+  #image {
+    width:50%;
+	height:50%;
+  } 
+  #background {
+    background-color:scarlet;
+  } 
+  #button {
+width:30px;
+height:15px;
+color:white;
+background-color:black;
+border-radius:15px;
+  }
+  #one {
+  	height: 150px;
+  	width: 150px;
+  	background-color: red;
+  	display: inline-block;
+  	position: fixed;
+  	left: 10%;
+  	z-index: 2;
+
+  }
+  #two {
+  	height: 150px;
+  	width: 150px;
+  	background-color: blue;
+  	display: inline-block;
+  	position: fixed;
+  	left: 15%;
+  	z-index: 1;
+  }
+  #three {
+  	height: 150px;
+  	width: 150px;
+  	background-color: yellow;
+  	display: inline-block;
+  	position: relative;
+  	left: 5%;
+  	top: 750px;
+  }
+  #hi {
+  	height: 2048px;
+  }
+  .navitem {
+  	list-style-type:none;
+  	display:inline;
+  	padding-right:1.5em;
+  }
+  #navmenu {
+  	width:250px;
+  	height:30px;
+  	margin:auto;
+  }
+  .pokemon:link{
+  	color:red;
+  }
+  .pokemon:visited{
+  	
+  }
+  .pokemon:hover{
+  	color:blue;
+  }
+  .pokemon:active{
+  	color:orange;
+  }
+} 
